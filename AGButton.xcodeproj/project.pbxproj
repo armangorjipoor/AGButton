@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC2324222985B9A90000F363 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2324212985B9A90000F363 /* AppDelegate.swift */; };
+		CC2324242985B9A90000F363 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2324232985B9A90000F363 /* SceneDelegate.swift */; };
+		CC2324262985B9A90000F363 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2324252985B9A90000F363 /* ViewController.swift */; };
+		CC2324292985B9A90000F363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC2324272985B9A90000F363 /* Main.storyboard */; };
+		CC23242B2985B9AB0000F363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC23242A2985B9AB0000F363 /* Assets.xcassets */; };
+		CC23242E2985B9AB0000F363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC23242C2985B9AB0000F363 /* LaunchScreen.storyboard */; };
+		CC64037C29834AAC00FC28EE /* AGButton.docc in Sources */ = {isa = PBXBuildFile; fileRef = CC64037B29834AAC00FC28EE /* AGButton.docc */; };
+		CC64038229834AAD00FC28EE /* AGButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC64037729834AAC00FC28EE /* AGButton.framework */; };
+		CC64038729834AAD00FC28EE /* AGButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC64038629834AAD00FC28EE /* AGButtonTests.swift */; };
+		CC64038829834AAD00FC28EE /* AGButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CC64037A29834AAC00FC28EE /* AGButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC64038329834AAD00FC28EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC64036E29834AAC00FC28EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC64037629834AAC00FC28EE;
+			remoteInfo = AGButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC23241F2985B9A90000F363 /* AGButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2324212985B9A90000F363 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC2324232985B9A90000F363 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC2324252985B9A90000F363 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC2324282985B9A90000F363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC23242A2985B9AB0000F363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC23242D2985B9AB0000F363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC23242F2985B9AB0000F363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC64037729834AAC00FC28EE /* AGButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC64037A29834AAC00FC28EE /* AGButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGButton.h; sourceTree = "<group>"; };
+		CC64037B29834AAC00FC28EE /* AGButton.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AGButton.docc; sourceTree = "<group>"; };
+		CC64038129834AAD00FC28EE /* AGButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC64038629834AAD00FC28EE /* AGButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGButtonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC23241C2985B9A90000F363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC64037429834AAC00FC28EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC64037E29834AAD00FC28EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC64038229834AAD00FC28EE /* AGButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC2324202985B9A90000F363 /* AGButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CC2324212985B9A90000F363 /* AppDelegate.swift */,
+				CC2324232985B9A90000F363 /* SceneDelegate.swift */,
+				CC2324252985B9A90000F363 /* ViewController.swift */,
+				CC2324272985B9A90000F363 /* Main.storyboard */,
+				CC23242A2985B9AB0000F363 /* Assets.xcassets */,
+				CC23242C2985B9AB0000F363 /* LaunchScreen.storyboard */,
+				CC23242F2985B9AB0000F363 /* Info.plist */,
+			);
+			path = AGButton_Example;
+			sourceTree = "<group>";
+		};
+		CC64036D29834AAC00FC28EE = {
+			isa = PBXGroup;
+			children = (
+				CC64037929834AAC00FC28EE /* AGButton */,
+				CC64038529834AAD00FC28EE /* AGButtonTests */,
+				CC2324202985B9A90000F363 /* AGButton_Example */,
+				CC64037829834AAC00FC28EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC64037829834AAC00FC28EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC64037729834AAC00FC28EE /* AGButton.framework */,
+				CC64038129834AAD00FC28EE /* AGButtonTests.xctest */,
+				CC23241F2985B9A90000F363 /* AGButton_Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC64037929834AAC00FC28EE /* AGButton */ = {
+			isa = PBXGroup;
+			children = (
+				CC64037A29834AAC00FC28EE /* AGButton.h */,
+				CC64037B29834AAC00FC28EE /* AGButton.docc */,
+			);
+			path = AGButton;
+			sourceTree = "<group>";
+		};
+		CC64038529834AAD00FC28EE /* AGButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC64038629834AAD00FC28EE /* AGButtonTests.swift */,
+			);
+			path = AGButtonTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CC64037229834AAC00FC28EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC64038829834AAD00FC28EE /* AGButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CC23241E2985B9A90000F363 /* AGButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2324322985B9AB0000F363 /* Build configuration list for PBXNativeTarget "AGButton_Example" */;
+			buildPhases = (
+				CC23241B2985B9A90000F363 /* Sources */,
+				CC23241C2985B9A90000F363 /* Frameworks */,
+				CC23241D2985B9A90000F363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGButton_Example;
+			productName = AGButton_Example;
+			productReference = CC23241F2985B9A90000F363 /* AGButton_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC64037629834AAC00FC28EE /* AGButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC64038B29834AAD00FC28EE /* Build configuration list for PBXNativeTarget "AGButton" */;
+			buildPhases = (
+				CC64037229834AAC00FC28EE /* Headers */,
+				CC64037329834AAC00FC28EE /* Sources */,
+				CC64037429834AAC00FC28EE /* Frameworks */,
+				CC64037529834AAC00FC28EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGButton;
+			productName = AGButton;
+			productReference = CC64037729834AAC00FC28EE /* AGButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC64038029834AAD00FC28EE /* AGButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC64038E29834AAD00FC28EE /* Build configuration list for PBXNativeTarget "AGButtonTests" */;
+			buildPhases = (
+				CC64037D29834AAD00FC28EE /* Sources */,
+				CC64037E29834AAD00FC28EE /* Frameworks */,
+				CC64037F29834AAD00FC28EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC64038429834AAD00FC28EE /* PBXTargetDependency */,
+			);
+			name = AGButtonTests;
+			productName = AGButtonTests;
+			productReference = CC64038129834AAD00FC28EE /* AGButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC64036E29834AAC00FC28EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CC23241E2985B9A90000F363 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					CC64037629834AAC00FC28EE = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					CC64038029834AAD00FC28EE = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = CC64037129834AAC00FC28EE /* Build configuration list for PBXProject "AGButton" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC64036D29834AAC00FC28EE;
+			productRefGroup = CC64037829834AAC00FC28EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC64037629834AAC00FC28EE /* AGButton */,
+				CC64038029834AAD00FC28EE /* AGButtonTests */,
+				CC23241E2985B9A90000F363 /* AGButton_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC23241D2985B9A90000F363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC23242E2985B9AB0000F363 /* LaunchScreen.storyboard in Resources */,
+				CC23242B2985B9AB0000F363 /* Assets.xcassets in Resources */,
+				CC2324292985B9A90000F363 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC64037529834AAC00FC28EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC64037F29834AAD00FC28EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC23241B2985B9A90000F363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2324262985B9A90000F363 /* ViewController.swift in Sources */,
+				CC2324222985B9A90000F363 /* AppDelegate.swift in Sources */,
+				CC2324242985B9A90000F363 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC64037329834AAC00FC28EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC64037C29834AAC00FC28EE /* AGButton.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC64037D29834AAD00FC28EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC64038729834AAD00FC28EE /* AGButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC64038429834AAD00FC28EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC64037629834AAC00FC28EE /* AGButton */;
+			targetProxy = CC64038329834AAD00FC28EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC2324272985B9A90000F363 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC2324282985B9A90000F363 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC23242C2985B9AB0000F363 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC23242D2985B9AB0000F363 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC2324302985B9AB0000F363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AGButton_Example/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArmanG.AGButton-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC2324312985B9AB0000F363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AGButton_Example/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ArmanG.AGButton-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC64038929834AAD00FC28EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC64038A29834AAD00FC28EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC64038C29834AAD00FC28EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ArmanG.AGButton;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC64038D29834AAD00FC28EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ArmanG.AGButton;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC64038F29834AAD00FC28EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ArmanG.AGButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC64039029834AAD00FC28EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ArmanG.AGButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC2324322985B9AB0000F363 /* Build configuration list for PBXNativeTarget "AGButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2324302985B9AB0000F363 /* Debug */,
+				CC2324312985B9AB0000F363 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC64037129834AAC00FC28EE /* Build configuration list for PBXProject "AGButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC64038929834AAD00FC28EE /* Debug */,
+				CC64038A29834AAD00FC28EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC64038B29834AAD00FC28EE /* Build configuration list for PBXNativeTarget "AGButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC64038C29834AAD00FC28EE /* Debug */,
+				CC64038D29834AAD00FC28EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC64038E29834AAD00FC28EE /* Build configuration list for PBXNativeTarget "AGButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC64038F29834AAD00FC28EE /* Debug */,
+				CC64039029834AAD00FC28EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC64036E29834AAC00FC28EE /* Project object */;
+}
